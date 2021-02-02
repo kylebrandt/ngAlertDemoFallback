@@ -24,6 +24,16 @@
 
 ![image of edit alert button](edit_alert_button.jpg)
 
+## An Alert straight from SQL like (Azure Data Explorer) without User entered Expressions
+
+In our SQL like editors, currently with Dashboard alerting you must return time series. This an example of if you wanted to write your Alert within the datasource, say something that is like SQL:
+
+![image of a table with a datacenter string column, host string column, and number column. Then a case statement to see if it is above a threshold and return 1 (alerting) or 0 (not alerting)](sql_style_alert.jpg)
+
+Which will output instances like:
+
+![image of instances from sql style alert](sql_style_instances.jpg)
+
 ## Misc
 
 Things API can do but UI Can't yet:
